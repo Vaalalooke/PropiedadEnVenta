@@ -26,4 +26,4 @@ Para mayor información contactarnos por
 
 CORREO ELECTRONICO:
 
-[Pensionrmr2021@hotmail.com](mailto:pensionrmr2021@hotmail.com?subject=Solicitud+de+Informaci&oacute;n+sobre+Casa+Vacacional+M&amp;G&body=Me+pongo+en+contacto+con+usted+para+solicitar+m&aacute;s+informaci&oactute;n+sobre+la+casa+vacacional+M&amp;G.%20Estoy+considerando+alquilar+esta+propiedad+para+[menciona+las+fechas+o+rango+de+fechas+que+te+interesan],+y+me+gustar&iacute;a+obtener+m&aacute;s+detalles+antes+de+tomar+una+decisi&oacute;n.)
+[Pensionrmr2021@hotmail.com](mailto:pensionrmr2021@hotmail.com?subject=Solicitud+de+Informaci&oacute;n+sobre+Casa+Vacacional+M&amp;G&body=Me+pongo+en+contacto+con+usted+para+solicitar+m&aacute;s+informaci&oacute;n+sobre+la+casa+vacacional+M&amp;G.%20Estoy+considerando+alquilar+esta+propiedad+para+[menciona+las+fechas+o+rango+de+fechas+que+te+interesan],+y+me+gustar&iacute;a+obtener+m&aacute;s+detalles+antes+de+tomar+una+decisi&oacute;n.)
