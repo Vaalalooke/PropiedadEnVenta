@@ -33,40 +33,78 @@
             max-width: 100%;
         }
     </style>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .header, .contact-info {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header h1, .header h2 {
+            color: #343a40;
+        }
+        .property-info p {
+            margin-bottom: 10px;
+        }
+        .contact-info h4 {
+            color: #007bff;
+        }
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
   <div class="container mt-5">
-    <h1 class="text-center">Renta de Propiedad</h1>
-  <h2 id="casa-mg" class="text-center">CASA M&amp;G</h1>
-  <p class="text-center">Se renta bonita casa por día o semana para vacacionar.
-  Casa M&amp;G es una casa ubicada a 10 minutos en auto de Playa Linda en Ixtapa Zihuatanejo.
-  Disponemos de alberca, ideal para refrescarse y pasar un Excelente día.
-  La casa cuenta con 3 recamaras con camas K.S. T.V.
-  Adicionalmente, Una de las recamaras cuenta con literas y un sofá-cama Matrimonial.
-  Aire acondicionado y baño completo cada una.
-  Sala, comedor, cocina equipada y cuarto de lavado equipado.
-  Servicios de gas, agua caliente, wifi, cable y estacionamiento.
-  Además dispone de un área de juegos con mesa de billar, Futbolito, hockey y para ejercitarse una caminadora.
-  En la parte superior cuenta con un área para festejos con Asador, tarja y plancha para preparación de alimentos.
-  Servicio de baños.</p>
-  
-  <p class="text-center">Todo a su disposición en San José Ixtapa Zihuatanejo</p>
-  
-  <h3 id="direccion" class="text-center">DIRECCION</h2>
-  
-  <p>Calle Cocos, equina Calle Cirianes s/n
-  San José Barrio Viejo, Ixtapa Zihuatanejo
-  Edo. Guerrero C.P. 40883
-  Para mayor información contactarnos por</p>
-  
-  <h3 id="whatsapp" class="text-center">WhatsApp</h2>
-  
-  <p class="text-center"><a href="https://wa.me/525525883953">55 25 88 39 53</a></p>
-  
-  <h3 id="correo-electronico" class="text-center">CORREO ELECTRONICO</h2>
-  
-  <p class="text-center"><a href="mailto:pensionrmr2021@hotmail.com?subject=Solicitud+de+Informaci&oacute;n+sobre+Casa+Vacacional+MyG&amp;body=Me+pongo+en+contacto+con+usted+para+solicitar+m&aacute;s+informaci&oacute;n+sobre+la+casa+vacacional+MyG.%20Estoy+considerando+alquilar+esta+propiedad+para+[menciona+las+fechas+o+rango+de+fechas+que+te+interesan],+y+me+gustar&iacute;a+obtener+m&aacute;s+detalles+antes+de+tomar+una+decisi&oacute;n." target="_blank" rel="noopener noreferrer">Pensionrmr2021@hotmail.com</a></p>
-  
+    <div class="header text-center">
+        <h1>Renta de Propiedad</h1>
+        <h2 id="casa-mg">CASA M&amp;G</h2>
+        <p>Se renta bonita casa por día o semana para vacacionar.</p>
+        <p>Casa M&amp;G es una casa ubicada a 10 minutos en auto de Playa Linda en Ixtapa Zihuatanejo.</p>
+        <p>Disponemos de alberca, ideal para refrescarse y pasar un excelente día.</p>
+    </div>
+    
+    <div class="property-info">
+        <p>La casa cuenta con 3 recámaras con camas King Size y T.V.</p>
+        <p>Adicionalmente, una de las recámaras cuenta con literas y un sofá-cama matrimonial.</p>
+        <p>Cada recámara tiene aire acondicionado y baño completo.</p>
+        <p>Incluye sala, comedor, cocina equipada y cuarto de lavado equipado.</p>
+        <p>Servicios incluidos: gas, agua caliente, wifi, cable y estacionamiento.</p>
+        <p>Además, dispone de un área de juegos con mesa de billar, futbolito, hockey y una caminadora para ejercitarse.</p>
+        <p>En la parte superior cuenta con un área para festejos con asador, tarja y plancha para la preparación de alimentos.</p>
+        <p>También hay servicio de baños.</p>
+        <p>Todo a su disposición en San José Ixtapa Zihuatanejo.</p>
+    </div>
+    
+    <div class="contact-info">
+        <h4 id="direccion" class="text-center">DIRECCIÓN</h4>
+        <p class="text-center">Calle Cocos, esquina Calle Cirianes s/n<br>
+        San José Barrio Viejo, Ixtapa Zihuatanejo<br>
+        Edo. Guerrero, C.P. 40883</p>
+    
+        <h3 class="text-center">Para mayor información contáctenos por</h3>
+    
+        <h4 id="whatsapp" class="text-center">WhatsApp</h4>
+        <p class="text-center">
+            <a href="https://wa.me/525525883953" target="_blank" rel="noopener noreferrer">55 25 88 39 53</a>
+        </p>
+    
+        <h4 id="correo-electronico" class="text-center">CORREO ELECTRÓNICO</h4>
+        <p class="text-center">
+            <a href="mailto:pensionrmr2021@hotmail.com?subject=Solicitud+de+Información+sobre+Casa+Vacacional+MyG&body=Me+pongo+en+contacto+con+usted+para+solicitar+más+información+sobre+la+casa+vacacional+MyG.+Estoy+considerando+alquilar+esta+propiedad+para+[menciona+las+fechas+o+rango+de+fechas+que+te+interesan],+y+me+gustaría+obtener+más+detalles+antes+de+tomar+una+decisión." target="_blank" rel="noopener noreferrer">pensionrmr2021@hotmail.com</a>
+        </p>
+    </div>  
     <div id="propertyCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
         <div class="carousel-inner">
             <div class="carousel-item active">
