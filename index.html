@@ -5,6 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renta de Propiedad</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: #f3f4f6;
+            color: #333;
+            padding: 20px;
+        }
+        .header {
+            margin-bottom: 40px;
+            text-align: center;
+            background: linear-gradient(to right, #007bff, #00aaff);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .header h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        .property-info {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .property-info p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .contact-info {
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info h4 {
+            color: #007bff;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            margin-right: 8px;
+            color: white;
+        }
+        .btn-contact {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 50px;
+            text-align: center;
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            transition: background-color 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        .btn-contact:hover {
+            background-color: #0056b3;
+        }
+    </style>
     <style>
         .carousel-item img {
             object-fit: cover;
@@ -33,79 +114,40 @@
             max-width: 100%;
         }
     </style>
-    <style>
-        body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            line-height: 1.6;
-            background-color: #f8f9fa;
-            padding: 20px;
-        }
-        .header, .contact-info {
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #ffffff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .header h1, .header h2 {
-            color: #343a40;
-        }
-        .property-info p {
-            margin-bottom: 10px;
-        }
-        .contact-info h4 {
-            color: #007bff;
-        }
-        .contact-info a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body>
-  <div class="container mt-5">
-    <div class="header text-center">
+    <div class="header">
         <h1>Renta de Propiedad</h1>
-        <h2 id="casa-mg">CASA M&amp;G</h2>
+        <h2 id="casa-mg">CASA M&G</h2>
         <p>Se renta bonita casa por día o semana para vacacionar.</p>
-        <p>Casa M&amp;G es una casa ubicada a 10 minutos en auto de Playa Linda en Ixtapa Zihuatanejo.</p>
-        <p>Disponemos de alberca, ideal para refrescarse y pasar un excelente día.</p>
+        <p>Ubicada a 10 minutos de Playa Linda, Ixtapa Zihuatanejo.</p>
     </div>
     
     <div class="property-info">
-        <p>La casa cuenta con 3 recámaras con camas King Size y T.V.</p>
-        <p>Adicionalmente, una de las recámaras cuenta con literas y un sofá-cama matrimonial.</p>
-        <p>Cada recámara tiene aire acondicionado y baño completo.</p>
-        <p>Incluye sala, comedor, cocina equipada y cuarto de lavado equipado.</p>
-        <p>Servicios incluidos: gas, agua caliente, wifi, cable y estacionamiento.</p>
-        <p>Además, dispone de un área de juegos con mesa de billar, futbolito, hockey y una caminadora para ejercitarse.</p>
-        <p>En la parte superior cuenta con un área para festejos con asador, tarja y plancha para la preparación de alimentos.</p>
-        <p>También hay servicio de baños.</p>
-        <p>Todo a su disposición en San José Ixtapa Zihuatanejo.</p>
+        <p><span class="icon">🏠</span>3 recámaras con camas King Size y T.V.</p>
+        <p><span class="icon">🛏️</span>Una recámara adicional con literas y sofá-cama matrimonial.</p>
+        <p><span class="icon">❄️</span>Aire acondicionado y baño completo en cada recámara.</p>
+        <p><span class="icon">🍽️</span>Sala, comedor, cocina equipada y cuarto de lavado.</p>
+        <p><span class="icon">💻</span>Servicios: gas, agua caliente, wifi, cable y estacionamiento.</p>
+        <p><span class="icon">🎱</span>Área de juegos con mesa de billar, futbolito, hockey y caminadora.</p>
+        <p><span class="icon">🎉</span>Área para festejos con asador, tarja y plancha para alimentos.</p>
+        <p><span class="icon">🚻</span>Servicio de baños.</p>
     </div>
     
-    <div class="contact-info">
-        <h4 id="direccion" class="text-center">DIRECCIÓN</h4>
-        <p class="text-center">Calle Cocos, esquina Calle Cirianes s/n<br>
-        San José Barrio Viejo, Ixtapa Zihuatanejo<br>
-        Edo. Guerrero, C.P. 40883<br>
-        Teléfono: 55 2588 3953</p>
+    <div class="contact-info text-center">
+        <h4 id="direccion">DIRECCIÓN</h4>
+        <p>Calle Cocos, esquina Calle Cirianes s/n<br>San José Barrio Viejo, Ixtapa Zihuatanejo<br>Edo. Guerrero, C.P. 40883</p>
     
-        <h3 class="text-center">Para mayor información contáctenos por</h3>
+        <h4>Para mayor información contáctenos por:</h4>
     
-        <h4 id="whatsapp" class="text-center">WhatsApp</h4>
-        <p class="text-center">
-            <a href="https://wa.me/525525883953" target="_blank" rel="noopener noreferrer">55 2588 3953</a>
-        </p>
+        <a href="https://wa.me/525525883953" class="btn-contact" target="_blank" rel="noopener noreferrer">
+            <span class="icon">📱</span>WhatsApp: 55 25 88 39 53
+        </a>
     
-        <h4 id="correo-electronico" class="text-center">CORREO ELECTRÓNICO</h4>
-        <p class="text-center">
-            <a href="mailto:pensionrmr2021@hotmail.com?subject=Solicitud+de+Información+sobre+Casa+Vacacional+MyG&body=Me+pongo+en+contacto+con+usted+para+solicitar+más+información+sobre+la+casa+vacacional+MyG.+Estoy+considerando+alquilar+esta+propiedad+para+[menciona+las+fechas+o+rango+de+fechas+que+te+interesan],+y+me+gustaría+obtener+más+detalles+antes+de+tomar+una+decisión." target="_blank" rel="noopener noreferrer">pensionrmr2021@hotmail.com</a>
-        </p>
-    </div>  
+        <a href="mailto:pensionrmr2021@hotmail.com?subject=Solicitud+de+Información+sobre+Casa+Vacacional+MyG&body=Me+pongo+en+contacto+con+usted+para+solicitar+más+información+sobre+la+casa+vacacional+MyG.+Estoy+considerando+alquilar+esta+propiedad+para+[menciona+las+fechas+o+rango+de+fechas+que+te+interesan],+y+me+gustaría+obtener+más+detalles+antes+de+tomar+una+decisión." class="btn-contact" target="_blank" rel="noopener noreferrer">
+            <span class="icon">✉️</span>Correo Electrónico: pensionrmr2021@hotmail.com
+        </a>
+    </div>
     <div id="propertyCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
         <div class="carousel-inner">
             <div class="carousel-item active">
